@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shooter : MonoBehaviour
 {
     public GameObject bulletPrefab;
-    public float bulletForce = 10000;
+    public float bulletForce = 5;
     public Transform bulletSpawnPosition;
 
     void Update()

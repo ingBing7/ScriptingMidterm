@@ -12,7 +12,6 @@ public class LockedDoor : MonoBehaviour
 
     public bool hasBeenOpened = false;
 
-
     private void Start()
     {
 

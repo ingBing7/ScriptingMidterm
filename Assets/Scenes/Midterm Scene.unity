@@ -276,7 +276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3341807890697243048, guid: 27ad7c67a0e18964e99c446c8b014d7f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.21
+      value: 3.66
       objectReference: {fileID: 0}
     - target: {fileID: 3341807890697243048, guid: 27ad7c67a0e18964e99c446c8b014d7f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -733,8 +733,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5735435909918322258, guid: 6a9946500993a8c4daa372ffaa24d16f, type: 3}
-  bulletForce: 5
-  bulletSpawnPosition: {fileID: 1090737400}
+  bulletForce: 10000
+  bulletSpawnPosition: {fileID: 1140000479}
+--- !u!4 &1140000479 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+  m_PrefabInstance: {fileID: 1844626091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1141203215
 PrefabInstance:
   m_ObjectHideFlags: 0
